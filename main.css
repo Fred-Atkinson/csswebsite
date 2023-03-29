@@ -1,0 +1,49 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+ .top  {
+    list-style-type: none;
+    background-color: rgb(52, 55, 55);
+    text-align: center;
+    width: 100%;
+
+    color: white;
+    float: left;
+    overflow: hidden;
+}
+
+.top li{
+    display: inline;
+    font-size: 20pt;
+    padding-left: 20px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head h1{
+    text-align: center;
+    padding-top: 125px;
+    color: rgb(101, 4, 4);
+    font-size: 60pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.head p{
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(101, 4, 4);
+    font-size: 18pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+
+body{
+    background: #5A5A5A url(w2.png) top center no-repeat;
+    background-size: cover;
+}
+
